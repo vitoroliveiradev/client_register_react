@@ -1,0 +1,17 @@
+.titleDetails  {
+  text-align: center;
+  color: #FFF;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  padding: 2.5rem;
+  border: 4px solid #FFF;
+  border-radius: 10px;
+  max-width: 350px;
+  margin: 2rem auto;
+}

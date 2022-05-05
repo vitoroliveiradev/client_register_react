@@ -1,0 +1,92 @@
+body {
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526); 
+}
+
+.home {
+  text-align: center;
+  color: #FFF;
+}
+
+.home .title {
+  margin: .5rem 0;
+}
+
+form {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+form input {
+  height: 35px;
+  width: 12rem;
+  background-color: transparent;
+  color: #FFF;
+  border: none;
+  border-bottom: 2px solid #FFF;
+  outline: none;
+}
+
+form input[type="submit"] {
+  border: none;
+  background-color: #FFF;
+  color: #000;
+  border-radius: .5rem;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 19px;
+  min-width: 50%;
+  border: 3px solid #000;
+
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    width: 100vw;
+  }
+}
+
+table tbody {
+  font-size: 1rem;
+  border: 3px solid #000;
+}
+
+table tbody tr td {
+  font-size: .9rem;
+}
+
+table tbody button {
+  padding: 0 .4rem;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 10%;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.details {
+  margin-left: .4rem;
+  text-decoration: none;
+  color: #000;
+  background-color: green;
+  padding: 0 .3rem;
+  border-radius: 10%;
+}
